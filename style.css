@@ -132,3 +132,10 @@ button:hover {
     font-size: 0.9rem;
     line-height: 20px;
 }
+
+@media (max-width: 650px) {
+    #bottom-left-section, #bottom-right-section, #card {
+        height: auto;
+        width: 100%;
+    }
+}
